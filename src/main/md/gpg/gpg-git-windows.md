@@ -1,4 +1,6 @@
-# gpg-git-windows.md
+# GPG Git windows
+
+[index](index.md)
 
 This document is based on the post : [Use GPG Signing Keys with Git (and GitHub) on Windows 10](https://medium.com/@ryanmillerc/use-gpg-signing-keys-with-git-on-windows-10-github-4acbced49f68)
 

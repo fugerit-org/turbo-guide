@@ -1,3 +1,7 @@
+# GPG basic commands
+
+[index](index.md)
+
 ## Generate key
 
 ```
