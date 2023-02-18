@@ -1,4 +1,4 @@
-# turbo-guide
+# [turbo-guide](https://github.com/fugerit79/turbo-guide)
 
 This is just a collection of simple tutorials, howtos and notes on various configurations.
 
@@ -6,7 +6,7 @@ This is just a collection of simple tutorials, howtos and notes on various confi
 
 In the past years, both for work and as a hobby, I've been collecting notes on various technical topics, mainly connected to software development. 
 One day I was creating a new repository on [github](https://github.com/), the 'Need inspiration?' feature suggesting names for the repository to be
-created presented me the name 'turbo-guide', it was like an 'epiphany' and I decided to start putting some of the notes I was collecting in form that
+created presented me the name 'turbo-guide', it was like an 'epiphany' and I decided to start putting some of the notes I was collecting in a form that
 (hopefully) could be helpful for others too.
 
 ## Index
