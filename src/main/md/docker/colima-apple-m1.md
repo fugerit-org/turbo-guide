@@ -33,6 +33,9 @@ Thi guide has been tested on an Apple MacBooc PRO 16 :
 * Connect to the container : `docker exec -it ora21playground bash`
 * Test oracle connection : `sqlplus sys/MyOracle_2023@//localhost:1521/XEPDB1 AS sysdba`
 
+### To note
+* Performance : Even though the x64 images start and run, in those tests they are much slower than in similar native x64 hardware.
+
 ### Useful resources
 * [Colima repository](https://github.com/abiosoft/colima)
 * [Oracle docker images script repository](https://github.com/oracle/docker-images/tree/main/OracleDatabase/SingleInstance)
