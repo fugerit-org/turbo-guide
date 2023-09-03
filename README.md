@@ -4,6 +4,8 @@ Version : 0.1.0
 
 [![Keep a Changelog v1.1.0 badge](https://img.shields.io/badge/changelog-Keep%20a%20Changelog%20v1.1.0-%23E05735)](CHANGELOG.md) 
 [![license](https://img.shields.io/badge/License-CC%20BY%204.0-teal.svg)](https://creativecommons.org/licenses/by/4.0/)
+[![github pages](https://img.shields.io/badge/github%20pages-turbo%20guide-blue.svg)](https://turbo-guide.fugerit.org/)
+
 
 This is just a collection of simple tutorials, howtos and notes on various configurations.
 

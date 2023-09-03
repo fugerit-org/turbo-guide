@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+
+- [github pages](https://turbo-guide.fugerit.org/) badge
+
 ## [0.1.0] - 2023-09-03
 
 ### Added
