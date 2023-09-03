@@ -1,4 +1,4 @@
-# Colima - Running x86_64 Containers on Apple M1
+# Colima - Running x86_64 Containers on Apple ARM (M1+)
 
 [index](index.md)
 
@@ -34,7 +34,9 @@ Thi guide has been tested on an Apple MacBooc PRO 16 :
 * Test oracle connection : `sqlplus sys/MyOracle_2023@//localhost:1521/XEPDB1 AS sysdba`
 
 ### To note
-* Performance : Even though the x64 images start and run, in those tests they are much slower than in similar native x64 hardware.
+* Performance : 
+  * Run : Even though the x64 images start and run, in those tests they are much slower than in similar native x64 hardware.
+  * Build : Images take a long time to build. It is recommended to us Colima for running images but not for building them.
 
 ### Useful resources
 * [Colima repository](https://github.com/abiosoft/colima)
