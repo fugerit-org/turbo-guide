@@ -13,6 +13,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - [github pages](https://turbo-guide.fugerit.org/) badge
 - [Create multi platform manifest](src/main/md/docker/multi-platform-manifest.md)
+- [Create multi platform image with buildx](src/main/md/docker/multi-platform-buildx.md)
 
 
 ## [0.1.0] - 2023-09-03
