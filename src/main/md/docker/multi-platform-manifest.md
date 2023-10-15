@@ -1,5 +1,9 @@
 # Create multi platform manifest
 
+[index](index.md)
+
+*Abstract* : Manualli creates a multi platform manifest (image) and push it to docker hub.
+
 1. Crate the images for all the platform needed
 
 For instance we will target linux/amd64 and linux/arm64 :
