@@ -4,13 +4,17 @@
 
 *Abstract* : Manualli creates a multi platform manifest (image) and push it to docker hub.
 
-1. Crate the images for all the platform needed
+1. Crate and push the images for all the platform needed
 
 For instance we will target linux/amd64 and linux/arm64 :
 
 `docker build -t fugeritorg/fj-doc-playground-quarkus:3.1.5-linux-amd64 --platform linux/amd64 .`
 
+`docker push fugeritorg/fj-doc-playground-quarkus:3.1.5-linux-amd64`
+
 `docker build -t fugeritorg/fj-doc-playground-quarkus:3.1.5-linux-arm64 --platform linux/arm64 .`
+
+`docker push fugeritorg/fj-doc-playground-quarkus:3.1.5-linux-arm64`
 
 2. Create and push the multi platform manifest
 
