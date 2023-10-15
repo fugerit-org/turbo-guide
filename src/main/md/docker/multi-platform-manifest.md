@@ -2,7 +2,7 @@
 
 [index](index.md)
 
-*Abstract* : Manualli creates a multi platform manifest (image) and push it to docker hub.
+*Abstract* : Manually creates a multi platform manifest (image) and push it to docker hub.
 
 1. Crate and push the images for all the platform needed
 
