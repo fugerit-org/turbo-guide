@@ -1,0 +1,25 @@
+{
+	"options":{
+		"branch":"develop",
+		"clone_base_url":"https://github.com/fugerit-org/"
+	},
+	"default": {
+		"desription":"fugerit universe repositories",
+		"list":[
+		{ "folder":"fj-bom" },
+		{ "folder":"fj-lib" },
+		{ "folder":"fj-doc" },
+		{ "folder":"fj-daogen" },
+		{ "folder":"query-export-tool" },
+		{ "folder":"yaml-doc-tool" },
+		{ "folder":"github-issue-export" }
+	]},
+	"core": {
+		"desription":"fugerit core repositories",
+		"list":[
+		{ "folder":"fj-bom" },
+		{ "folder":"fj-lib" },
+		{ "folder":"fj-doc" },
+		{ "folder":"fj-daogen" }
+	]}
+}

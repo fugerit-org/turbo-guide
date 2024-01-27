@@ -10,6 +10,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 
 - [Install quarkus-cli behind a proxy](src/main/md/java/quarkus/quarkus_cli_jbang_install_proxy.md)
+- [git_helper.sh script](src/main/script/git/git_helper.md)
 
 ## [0.1.1] - 2023-10-15
 
