@@ -1,0 +1,28 @@
+# This script will test bash scripts in this repository
+
+name: CI test bash scripts
+
+on:
+  # Trigger analysis when pushing in master or pull requests, and when creating
+  # a pull request.
+  push:
+    branches:
+      - main
+      - develop
+  pull_request:
+    types:
+      - opened
+      - synchronize
+      - reopened
+
+jobs:
+  run_tests:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    - name: Run test scripts
+      run: |
+         cd ./src/test/script
+         chmod +x ./run_all_tests.sh
+         ./run_all_tests.sh
+      shell: bash
