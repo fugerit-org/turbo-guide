@@ -2,7 +2,7 @@
 
 rm -fr fj-*
 
-TEST_FILE=fj-doc/pom.xml
+TEST_FILE=fj-doc/pom.xmla
 
 ../../../../src/main/script/git/git_helper.sh -k clone -s core -j ../../../../src/main/script/git/repo-subset.json
 
