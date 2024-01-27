@@ -4,6 +4,7 @@
 [![license](https://img.shields.io/badge/License-CC%20BY%204.0-teal.svg)](https://creativecommons.org/licenses/by/4.0/)
 [![github pages](https://img.shields.io/badge/github%20pages-turbo%20guide-blue.svg)](https://turbo-guide.fugerit.org/)
 ![CI test bash scripts](https://github.com/fugerit-org/turbo-guide/actions/workflows/test_scripts.yml/badge.svg)
+[![code of conduct](https://img.shields.io/badge/conduct-Contributor%20Covenant-purple.svg)](https://github.com/fugerit-org/fj-universe/blob/main/CODE_OF_CONDUCT.md)
 
 
 
