@@ -8,9 +8,9 @@ rm -fr fj-*
 
 TEST_FILE=fj-doc/pom.xml
 
-REPO_SUBSET=../../../../src/main/script/git/repo-subset.json
+REPO_SUBSET=../../../../src/main/shell/git/repo-subset.json
 
-SCRIPT=../../../../src/main/script/git/git_helper.sh 
+SCRIPT=../../../../src/main/shell/git/git_helper.sh 
 
 # built in command : clone
 ${SCRIPT} -k clone -s core -j ${REPO_SUBSET}

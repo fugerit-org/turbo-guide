@@ -24,7 +24,7 @@ created presented me the name 'turbo-guide', it was like an 'epiphany' and I dec
 
 ## Script index
 
-1. [GIT script](src/main/script/git/index.md)
+1. [GIT script](src/main/shell/git/index.md)
 
 ## About license
 

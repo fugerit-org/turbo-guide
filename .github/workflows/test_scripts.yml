@@ -22,7 +22,7 @@ jobs:
     - uses: actions/checkout@v3
     - name: Run test scripts
       run: |
-         cd ./src/test/script
+         cd ./src/test/shell
          chmod +x ./run_all_tests.sh
          ./run_all_tests.sh
       shell: bash
