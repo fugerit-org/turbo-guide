@@ -5,7 +5,7 @@
 # Author:
 #	Matteo Franci <mttfranci@gmail.com>
 #
-# See : https://github.com/fugerit-org/turbo-guide/blob/main/src/main/script/git/git_helper.md
+# See : https://github.com/fugerit-org/turbo-guide/blob/main/src/main/shell/git/git_helper.md
 
 # Script setup, in case of error will exit immediately
 set -o errexit
