@@ -6,8 +6,6 @@
 ![CI test bash scripts](https://github.com/fugerit-org/turbo-guide/actions/workflows/test_scripts.yml/badge.svg)
 [![code of conduct](https://img.shields.io/badge/conduct-Contributor%20Covenant-purple.svg)](https://github.com/fugerit-org/fj-universe/blob/main/CODE_OF_CONDUCT.md)
 
-
-
 This is just a collection of simple tutorials, howtos and notes on various configurations.
 
 ## Why turbo-guide?
@@ -33,3 +31,10 @@ created presented me the name 'turbo-guide', it was like an 'epiphany' and I dec
 I want to thank [santisoler](https://github.com/santisoler/cc-licenses) for the standalone version of the 
 	[Attribution 4.0 International](https://github.com/santisoler/cc-licenses/blob/main/LICENSE-CC-BY) 
 	included in this repository.
+
+## Project structure
+
+This project is based on [Fugerit project structure](https://universe.fugerit.org/src/docs/conventions/fugerit-project-structure.html)
+
+
+	
