@@ -9,6 +9,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
+- added [quarkus : test coverage (jococo)](src/main/md/java/quarkus/quarkus-coverage-jococo.md)
 - [CODE OF CONDUIT](CODE_OF_CONDUCT.md)
 
 ## [0.2.0] - 2024-01-27
