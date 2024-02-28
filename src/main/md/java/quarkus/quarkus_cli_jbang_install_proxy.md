@@ -15,3 +15,9 @@ curl too needs to be configured for proxy access, for instance with variable :
 `export HTTPS_PROXY="$user:$pass@$host:$port"`
 
 NOTE: maven too should be able to access external repository, via proxy or other means. (settings.xml)
+
+## Tested on 
+
+Windows, with git bash, using git basic authentication method
+
+Warning : still not working with NTLM auth
