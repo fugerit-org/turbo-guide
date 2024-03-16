@@ -17,17 +17,51 @@ On real scenario, if using standard jococo implementations and quarkus, some cla
 In my experience with quarkus this happens when a bean is both @ApplicationScoped and has some fields with @Inject annotation.
 
 Tested on : 
-* quarkus 3.7.1
+* quarkus 3.7.1, 3.8.x
 * maven 3.9.5
 * java 17
 * a sonar scan via maven build correctly handled all the test coverage
+
+## coverage of normal junit (not @QuarkusTest) sometimes is not in the jacoco report
+
+Sometimes not all test result are in the coverage report (for instance normal junit).
+I could not found the reason, bug sometimes this workaround worked for me, 
+adding this plugin configuration, as described in <https://github.com/quarkusio/quarkus/issues/27155> : 
+
+```xml
+            <plugin>
+                <groupId>org.jacoco</groupId>
+                <artifactId>jacoco-maven-plugin</artifactId>
+                <version>${versions.jacoco}</version>
+                <executions>
+                    <execution>
+                        <id>default-prepare-agent</id>
+                        <goals>
+                            <goal>prepare-agent</goal>
+                        </goals>
+                        <configuration>
+                            <exclClassLoaders>*QuarkusClassLoader</exclClassLoaders>
+                            <destFile>${project.build.directory}/jacoco-quarkus.exec</destFile>  ----> this is the fix
+                            <append>true</append>
+                        </configuration>
+                    </execution>
+                    <execution>
+                        <id>generate-code-coverage-report</id>
+                        <phase>test</phase>
+                        <goals>
+                            <goal>report</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+```
 
 ## quarkus and eclipse
 
 On eclipse, using the quarkus-jococo, most test failed (eclipse 2023-12).
 It is possible to include quarkus-jococo dependancy only on specific profiles : 
 
-```
+```xml
 		<profile>
 			<id>test</id>
 			<dependencies>		
