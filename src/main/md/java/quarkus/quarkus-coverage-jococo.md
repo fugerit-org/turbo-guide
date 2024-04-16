@@ -41,7 +41,7 @@ adding this plugin configuration, as described in <https://github.com/quarkusio/
                         </goals>
                         <configuration>
                             <exclClassLoaders>*QuarkusClassLoader</exclClassLoaders>
-                            <destFile>${project.build.directory}/jacoco-quarkus.exec</destFile>  ----> this is the fix
+                            <destFile>${project.build.directory}/jacoco-quarkus.exec</destFile> <!-- this is the fix -->
                             <append>true</append>
                         </configuration>
                     </execution>
